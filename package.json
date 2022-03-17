@@ -1,0 +1,26 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "concurrently \"npm run backend\" \"npm run start --prefix client\""
+  },
+  "author": "angari",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

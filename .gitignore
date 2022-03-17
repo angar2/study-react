@@ -1,0 +1,4 @@
+# github에 commit 시, 제외할 소스코드를 지정함
+node_modules
+
+dev.js

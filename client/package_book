@@ -1,0 +1,56 @@
+[
+    {
+        name: "react",
+        explain: "web framework",
+        command: "npx create-react-app .",
+        url: ""
+    },
+    {
+        name: "react-router-dom",
+        explain: "",
+        command: "npm install react-router-dom --save",
+        url: "https://reactrouter.com/docs/en/v6/examples/basic"
+    },
+    {
+        name: "axios",
+        explain: "clent에서 server로 request를 보낼 때 사용",
+        command: "npm install axios --save",
+        url: "https://www.npmjs.com/package//axios"
+    },
+    {
+        name: "proxy",
+        explain: [
+            "clent와 server를 중계하는 서버",
+            "clent와 server의 port가 다른 경우 바꿔서 연결함",
+            "IP를 임의로 바꿀 수 있음",
+            "보내는 DATA도 임의로 바꿀 수 있음",
+            "방화벽/웹필터 기능"
+        ],
+        command: "npm install http-proxy-middleware --save",
+        url: "https://create-react-app.dev/docs/proxying-api-requests-in-development/"
+    },
+    {
+        name: "concurrently",
+        explain: [
+            "clent와 server의 서버를 동시에 켤 때 사용",
+            "pakage.json에 script 명령어를 새로 만들어주어야함"
+        ],
+        command: "npm install concurrently --save",
+        url: "https://www.npmjs.com/package/concurrently"
+    },
+    {
+        name: "antd",
+        explain: "CSS framework",
+        command: "npm install antd --save",
+        url: "https://ant.design/docs/react/introduce"
+    },
+    {
+        name: "redux",
+        explain: [
+            "상태 관리 라이브러리",
+            "redux-promise, redux-thunk는 redux를 더 잘 사용하기 위한 middlewrae"
+        ],
+        command: "npm install redux react-redux redux-promise redux-thunk --save",
+        url: "https://ant.design/docs/react/introduce"
+    }
+]

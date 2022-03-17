@@ -1,0 +1,47 @@
+[
+    {
+        name: "express",
+        explain: "nodeJS의 서버 코딩용 프레임워크",
+        command: "npm install express --save",
+        url : "http://expressjs.com/ko/starter/installing.html"
+    },
+    {
+        name: "mongoose",
+        explain: "mongoDB를 편하게 쓸 수 있는 object modeling tool",
+        command: "npm install mongoose --save",
+        url : [
+            "https://github.com/Automattic/mongoose",
+            "https://www.npmjs.com/package/mongoose"
+        ]
+    }
+    {
+        name: "body-parser",
+        explain: "client post 요청을 body params에 담아 편리하게 추출함",
+        command: "npm install body-parser --save",
+        url : "https://www.npmjs.com/package/body-parser"
+    },
+    {
+        name: "nodemon",
+        explain: "소스코드 수정 후 서버 재시작 없이 바로 로컬에 반영해주도록 함",
+        command: "npm install nodemon --save-dev",
+        url : "https://www.npmjs.com/package/nodemon"
+    },
+    {
+        name: "bcrypt",
+        explain: "사용자 password를 암호화함",
+        command: "npm install bcrypt --save",
+        url : "https://www.npmjs.com/package/bcrypt"
+    },
+    {
+        name: "jsonwebtoken",
+        explain: "web token을 생성함",
+        command: "npm install jsonwebtoken --save",
+        url : "https://www.npmjs.com/package/jsonwebtoken"
+    },
+    {
+        name: "cookie-parser",
+        explain: "web token을 생성함",
+        command: "npm install cookie-parser --save",
+        url : "https://www.npmjs.com/package/cookie-parser"
+    },
+]
